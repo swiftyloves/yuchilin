@@ -42,6 +42,8 @@
     }
     .portfolio-caption {
       max-width: 400px;
+      height: 130px;
+      display: table;
       margin: 0 auto;
       padding: 25px;
       text-align: center;
@@ -61,6 +63,17 @@
   * {
     z-index: 2;
   }
+}
+.intro-heading {
+  font-size: 80px;
+  line-height: 200px;
+}
+.landing-intro {
+  padding: 100px 0 40px;
+}
+.landing-intro-container {
+  height: 750px;
+  padding-top: 80px;
 }
 @media(min-width:767px) {
   #portfolio {

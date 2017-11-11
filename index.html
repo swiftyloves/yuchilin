@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Research Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Research Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#publication">Publication</a>
@@ -54,22 +54,28 @@
 
     <!-- Header -->
     <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <!-- <div class="intro-lead-in">Welcome To Our Studio!</div> -->
-          <div class="intro-heading text-uppercase">Yi-Chi Lin</div>  
+      <div class="container landing-intro-container">
+        
+          <div class="row landing-intro">
+            <div class="col-md-offset-1 col-md-4 col-sm-12 portfolio-item">
+              <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/yuchilin.jpg" alt="">
+            </div>
+            <!-- <div class="intro-lead-in">Welcome To Our Studio!</div> -->
+            <div class="col-md-6 col-sm-12 portfolio-item">
+              <div class="intro-heading text-uppercase">Yu-Chi Lin</div>  
+            </div>
+          </div>
           <p class="mb-5 self-intro">I'm a roboticist dedicated to robotics research and works. I am now working in Autonomous Robotic Manipulation Laboratory at the University of Michigan. I graduated from Nation Taiwan University, Taiwan with B.S. and M.S. degree in Electrical Engineering. My research topics include but not limited to humanoid locomotion planning, general motion planning, robot arm manipulations,  3D perceptions, and system integrations. I welcome every new possibility to explore new fileds in Robotics, Control Application, AI and Machine Learning.</p>
-        </div>
       </div>
     </header>
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="Projects">
+    <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">Here's my projects.</h3>
+            <h2 class="section-heading text-uppercase">Rearch Projects</h2>
+            <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
         <div class="row">
@@ -80,11 +86,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/projects/prev_experience.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h5 class="project-thum-title">Humanoid Navigation Planning using Previous Experience</h5>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -94,11 +99,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/projects/learning_traversability.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+              <h5 class="project-thum-title">Learning Humanoid Traversability</h5>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -108,56 +112,12 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/projects/mobile_manip_planning.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h5 class="project-thum-title">Mobile Manipulator Motion Planning</h5>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -226,37 +186,34 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Yu-Chi Lin 2017</span>
-          </div>
-          <div class="col-md-4">
+          <div class="col-md-12">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+                <a href="https://scholar.google.com/citations?user=ZXX_Z38AAAAJ">
+                  <i class="fa fa-google"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
+                <a target="_blank" href="https://github.com/LinYuChi">
+                  <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/yu-chi-lin-5177756a/">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="mailto:linyuchi@umich.edu">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <span class="copyright">Copyright &copy; Yu-Chi Lin 2017</span>
           </div>
         </div>
       </div>
@@ -278,9 +235,8 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <h2 class="text-uppercase">Humanoid Navigation Planning using Previous Experience</h2>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/prev_experience.png" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>

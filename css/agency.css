@@ -159,6 +159,11 @@ header.masthead {
 .play-icon {
   color: #ea9797; }
 
+.project-thum-title {
+  font-weight: 300;
+  display: table-cell;
+  vertical-align: middle; }
+
 a:hover {
   text-decoration: none; }
 
@@ -222,6 +227,8 @@ a:hover {
           margin: 0; }
   #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
+    height: 130px;
+    display: table;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
@@ -237,6 +244,17 @@ a:hover {
 
 #portfolio * {
   z-index: 2; }
+
+.intro-heading {
+  font-size: 80px;
+  line-height: 200px; }
+
+.landing-intro {
+  padding: 100px 0 40px; }
+
+.landing-intro-container {
+  height: 750px;
+  padding-top: 80px; }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
