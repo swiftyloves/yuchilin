@@ -1,8 +1,8 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url('../img/header-bg.jpg');
+  /*color: white;*/
+  /*background-image: url('../img/header-bg.jpg');*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -24,7 +24,26 @@ header.masthead {
       margin-bottom: 25px;
       @include heading-font;
     }
+    .self-intro {
+      color: gray;
+    }
   }
+}
+
+.gray {
+  color: gray;
+}
+
+.play-icon {
+  color: #ea9797;
+}
+
+a:hover {
+ text-decoration: none; 
+}
+
+.fa-youtube-play {
+  font-size: 20px;
 }
 @media(min-width:768px) {
   header.masthead {
